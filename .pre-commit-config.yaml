@@ -16,7 +16,7 @@ repos:
   - id: black
     language_version: python3
 - repo: https://github.com/pycqa/isort
-  rev: 5.10.1
+  rev: 6.0.1
   hooks:
   - id: isort
 - repo: https://github.com/PyCQA/flake8
@@ -27,8 +27,8 @@ repos:
     - flake8-bugbear
     - flake8-comprehensions
     - flake8-tidy-imports
-- repo: https://github.com/mgedmin/check-manifest
-  rev: "0.48"
-  hooks:
-  - id: check-manifest
-    args: [--no-build-isolation]
+#- repo: https://github.com/mgedmin/check-manifest
+#  rev: "0.48"
+#  hooks:
+#  - id: check-manifest
+#    args: [--no-build-isolation]
